@@ -8,7 +8,7 @@ import javax.ejb.Local;
 import javax.ejb.Remote;
 import javax.ejb.Stateless;
 
-import br.inatel.dm110.client.converter.ClientConverter;
+import br.inatel.dm110.clients.converter.ClientConverter;
 import br.inatel.dm110.clients.dao.ClientDAO;
 import br.inatel.dm110.clients.interfaces.ClientsLocal;
 import br.inatel.dm110.clients.interfaces.ClientsRemote;

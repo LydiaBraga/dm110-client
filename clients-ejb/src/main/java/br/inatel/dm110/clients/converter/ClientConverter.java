@@ -1,4 +1,4 @@
-package br.inatel.dm110.client.converter;
+package br.inatel.dm110.clients.converter;
 
 import java.util.function.Function;
 
