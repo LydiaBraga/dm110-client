@@ -6,7 +6,7 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import db.inatel.dm110.clients.model.Client;
+import br.inatel.dm110.clients.entities.Client;
 
 @Stateless
 public class ClientDAO {

@@ -15,7 +15,7 @@ public class Client {
 	private Integer id;
 	
 	private String name;
-	
+
 	private String email;
 
 	public Integer getId() {
@@ -41,6 +41,5 @@ public class Client {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
 
 }

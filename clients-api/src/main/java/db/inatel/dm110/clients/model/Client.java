@@ -4,17 +4,26 @@ import java.io.Serializable;
 
 public class Client implements Serializable {
 	
-	private static final long serialVersionUID = -3591848272220325936L;
+	private static final long serialVersionUID = 5742057814662872542L;
 	
-	private String nome;
+	private Integer id;
+	private String name;
 	private String email;
 	
-	public String getNome() {
-		return nome;
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
 	}
 	
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	public String getEmail() {
